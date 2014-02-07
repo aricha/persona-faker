@@ -1,0 +1,23 @@
+{
+  "name": "persona-faker",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "node-restify-swagger": "0.1.x",
+    "node-restify-validation": "0.0.x",
+    "request": "2.30.x",
+    "restify": "2.6.x",
+    "node-uuid": "1.4.x",
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=0.10.x",
+    "npm": ">=1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aricha/persona-faker.git"
+  }
+}
