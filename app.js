@@ -1,12 +1,9 @@
 var settings = require('./settings_local.js');
 
-var db = require('./db');
 var serverHTTP = require('./server_http');
 
-
-
 [
-    'assertion',
+    'generate',
     'verify'
 ].forEach(function(view) {
     require('./views/' + view)(serverHTTP);

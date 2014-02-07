@@ -3,7 +3,7 @@ var restifySwagger = require('node-restify-swagger');
 var restifyValidation = require('node-restify-validation');
 
 var server = restify.createServer({
-    name: 'galaxy-api',
+    name: 'persona-faker',
     version: '0.0.1'
 });
 

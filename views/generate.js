@@ -1,6 +1,6 @@
 module.exports = function(server) {
-    server.post({
-        url: '/verify'
+    server.get({
+        url: '/generate'
     }, function (req, res) {
         
     });
