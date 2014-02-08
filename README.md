@@ -1,3 +1,3 @@
 # persona-faker
 
-write me
+A basic API that fakes generation and verification of Mozilla Persona assertions.
