@@ -1,5 +1,3 @@
-var settings = require('./settings_local.js');
-
 var serverHTTP = require('./server_http');
 
 [
