@@ -6,7 +6,7 @@
     "node-restify-swagger": "0.1.x",
     "node-restify-validation": "0.0.x",
     "request": "2.30.x",
-    "restify": "2.6.x",
+    "restify": "2.6.x"
   },
   "scripts": {
     "start": "node app.js"
