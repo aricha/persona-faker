@@ -1,13 +1,12 @@
 {
   "name": "persona-faker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "dependencies": {
     "node-restify-swagger": "0.1.x",
     "node-restify-validation": "0.0.x",
     "request": "2.30.x",
     "restify": "2.6.x",
-    "node-uuid": "1.4.x"
   },
   "scripts": {
     "start": "node app.js"
