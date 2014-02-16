@@ -17,6 +17,6 @@ serverHTTP.listen(process.env.PORT || 9001, function() {
         var client = db.redis();
         client.publish('galaxy-db-prefill:persona-faker', 'ready', function() {
             client.end();
-        }});
+        });
     }
 });
